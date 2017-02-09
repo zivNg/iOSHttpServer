@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  iOSHttpServer
 //
 //  Created by ziv on 2017/2/9.
@@ -13,14 +13,14 @@
 #import "DDTTYLogger.h"
 
 #import "CustomHTTPConnection.h"
+#import "SSIDAndPhoneIP.h"
 
 // Log levels: off, error, warn, info, verbose
 static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 {
     HTTPServer *httpServer;
 }
 
 @end
-
